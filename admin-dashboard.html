@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>VConnect IT - Admin Panel</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI;
+}
+
+body{
+background:#f4f7fa;
+}
+
+.sidebar{
+position:fixed;
+width:250px;
+height:100vh;
+background:#0f172a;
+color:white;
+padding-top:20px;
+}
+
+.sidebar h2{
+text-align:center;
+margin-bottom:30px;
+}
+
+.sidebar a{
+display:block;
+padding:15px 20px;
+color:white;
+text-decoration:none;
+}
+
+.sidebar a:hover{
+background:#2563eb;
+}
+
+.main{
+margin-left:250px;
+padding:30px;
+}
+
+.cards{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:25px;
+width:220px;
+border-radius:10px;
+box-shadow:0 4px 12px rgba(0,0,0,.1);
+}
+
+.card h2{
+color:#2563eb;
+}
+
+table{
+width:100%;
+margin-top:30px;
+background:white;
+border-collapse:collapse;
+box-shadow:0 4px 12px rgba(0,0,0,.1);
+}
+
+th{
+background:#2563eb;
+color:white;
+padding:15px;
+}
+
+td{
+padding:15px;
+border-bottom:1px solid #ddd;
+}
+
+.btn{
+background:#10b981;
+color:white;
+padding:8px 15px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="sidebar">
+
+<h2>VConnect IT</h2>
+
+#Dashboard</a>
+#All Tickets</a>
+#Clients</a>
+#Engineers</a>
+#Reports</a>
+#Settings</a>
+
+</div>
+
+<div class="main">
+
+<h1>Admin Dashboard</h1>
+
+<br>
+
+<div class="cards">
+
+<div class="card">
+<h2>156</h2>
+<p>Total Tickets</p>
+</div>
+
+<div class="card">
+<h2>18</h2>
+<p>Open Tickets</p>
+</div>
+
+<div class="card">
+<h2>24</h2>
+<p>Clients</p>
+</div>
+
+<div class="card">
+<h2>6</h2>
+<p>Engineers</p>
+</div>
+
+</div>
+
+<table>
+
+<tr>
+<th>Ticket ID</th>
+<th>Client</th>
+<th>Category</th>
+<th>Status</th>
+<th>Engineer</th>
+<th>Action</th>
+</tr>
+
+<tr>
+<td>VC1001</td>
+<td>ABC Industries</td>
+<td>Printer</td>
+<td>Open</td>
+<td>Varun</td>
+<td><button class="btn">Assign</button></td>
+</tr>
+
+<tr>
+<td>VC1002</td>
+<td>XYZ Textile</td>
+<td>ERP</td>
+<td>In Progress</td>
+<td>Rahul</td>
+<td><button class="btn">Update</button></td>
+</tr>
+
+</table>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Clients Management - VConnect IT</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Segoe UI;
+background:#f4f7fa;
+}
+
+.header{
+background:#0f172a;
+color:white;
+padding:20px;
+}
+
+.container{
+padding:30px;
+}
+
+.form-card{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0px 3px 10px rgba(0,0,0,0.1);
+margin-bottom:25px;
+}
+
+input,textarea,select{
+width:100%;
+padding:12px;
+margin-top:10px;
+margin-bottom:15px;
+border:1px solid #ddd;
+border-radius:8px;
+}
+
+button{
+background:#2563eb;
+color:white;
+padding:12px 20px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
+
+button:hover{
+background:#1d4ed8;
+}
+
+table{
+width:100%;
+background:white;
+border-collapse:collapse;
+box-shadow:0px 3px 10px rgba(0,0,0,0.1);
+}
+
+th{
+background:#2563eb;
+color:white;
+padding:15px;
+}
+
+td{
+padding:15px;
+border-bottom:1px solid #ddd;
+}
+
+.active{
+color:green;
+font-weight:bold;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="header">
+<h1>Client Management</h1>
+</div>
+
+<div class="container">
+
+<div class="form-card">
+
+<h2>Add New Client</h2>
+
+<input type="text" placeholder="Company Name">
+
+<input type="text" placeholder="Contact Person">
+
+<input type="text" placeholder="Mobile Number">
+
+<input type="email" placeholder="Email Address">
+
+<input type="text" placeholder="GST Number">
+
+<input type="text" placeholder="City">
+
+<textarea rows="4" placeholder="Company Address"></textarea>
+
+<select>
+<option>AMC Customer</option>
+<option>Regular Customer</option>
+<option>Premium Customer</option>
+</select>
+
+<button>Add Client</button>
+
+</div>
+
+<table>
+
+<tr>
+<th>Client ID</th>
+<th>Company Name</th>
+<th>Contact Person</th>
+<th>Mobile</th>
+<th>Type</th>
+<th>Status</th>
+</tr>
+
+<tr>
+<td>CL001</td>
+<td>ABC Industries</td>
+<td>Ramesh Patel</td>
+<td>9876543210</td>
+<td>AMC Customer</td>
+<td class="active">Active</td>
+</tr>
+
+<tr>
+<td>CL002</td>
+<td>XYZ Textiles</td>
+<td>Suresh Shah</td>
+<td>9876543211</td>
+<td>Premium Customer</td>
+<td class="active">Active</td>
+</tr>
+
+<tr>
+<td>CL003</td>
+<td>PQR Engineering</td>
+<td>Mahesh Desai</td>
+<td>9876543212</td>
+<td>Regular Customer</td>
+<td class="active">Active</td>
+</tr>
+
+</table>
+
+</div>
+
+</body>
+</html>
